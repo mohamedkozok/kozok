@@ -17,7 +17,7 @@ jobs:
       
       - name: "login to Docker hub"
         run: docker login --username mohamedkozok --password dckr_pat_xN-va3I1T7jKEaBaQvzrQoPVYZk
-      - name: "building docker image"
+      - name: "bulding docker image"
         run: docker build -t mohamedkozok/myimage .
         
       - name: "pushing to Dockerhub"
